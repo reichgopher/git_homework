@@ -6,6 +6,7 @@ func main() {
 
 	app()
 	confDB()
+	parser()
 
 }
 
@@ -15,4 +16,8 @@ func app() {
 
 func confDB() {
 	fmt.Println("Conf Database")
+}
+
+func parser() {
+	fmt.Println("Menu parser")
 }
