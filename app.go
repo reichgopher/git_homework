@@ -7,6 +7,7 @@ func main() {
 	app()
 	confDB()
 	parser()
+	middlware()
 
 }
 
@@ -20,4 +21,8 @@ func confDB() {
 
 func parser() {
 	fmt.Println("Menu parser")
+}
+
+func middlware() {
+	fmt.Println("Middlware")
 }
